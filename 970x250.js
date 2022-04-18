@@ -25,36 +25,6 @@ lib.ssMetadata = [];
 
 
 
-(lib._1 = function() {
-	this.initialize(img._1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,105,205);
-
-
-(lib._2 = function() {
-	this.initialize(img._2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,168,185);
-
-
-(lib._3 = function() {
-	this.initialize(img._3);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,130,236);
-
-
-(lib._4 = function() {
-	this.initialize(img._4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,117,239);
-
-
-(lib._5 = function() {
-	this.initialize(img._5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,161,217);
-
-
 (lib.arcade_fire_big = function() {
 	this.initialize(img.arcade_fire_big);
 }).prototype = p = new cjs.Bitmap();
@@ -101,6 +71,36 @@ p.nominalBounds = new cjs.Rectangle(0,0,262,62);
 	this.initialize(img.date);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,571,128);
+
+
+(lib.image1 = function() {
+	this.initialize(img.image1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,105,205);
+
+
+(lib.image2 = function() {
+	this.initialize(img.image2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,168,185);
+
+
+(lib.image3 = function() {
+	this.initialize(img.image3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,130,236);
+
+
+(lib.image4 = function() {
+	this.initialize(img.image4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,117,239);
+
+
+(lib.image5 = function() {
+	this.initialize(img.image5);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,161,217);
 
 
 (lib.learnmore = function() {
@@ -288,7 +288,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._2();
+	this.instance = new lib.image2();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -309,7 +309,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._1();
+	this.instance = new lib.image1();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -330,7 +330,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._3();
+	this.instance = new lib.image3();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -351,7 +351,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._4();
+	this.instance = new lib.image4();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -372,7 +372,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._5();
+	this.instance = new lib.image5();
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -897,20 +897,20 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"1.png?1650321998335", id:"_1"},
-		{src:"2.png?1650321998335", id:"_2"},
-		{src:"3.png?1650321998335", id:"_3"},
-		{src:"4.png?1650321998335", id:"_4"},
-		{src:"5.png?1650321998335", id:"_5"},
-		{src:"arcade_fire_big.png?1650321998335", id:"arcade_fire_big"},
-		{src:"arcade_fire_small.png?1650321998335", id:"arcade_fire_small"},
-		{src:"arcade_fireandmore.png?1650321998335", id:"arcade_fireandmore"},
-		{src:"ball.png?1650321998335", id:"ball"},
-		{src:"block_logo.png?1650321998335", id:"block_logo"},
-		{src:"copy1.png?1650321998335", id:"copy1"},
-		{src:"cta_bg.png?1650321998335", id:"cta_bg"},
-		{src:"date.png?1650321998335", id:"date"},
-		{src:"learnmore.png?1650321998335", id:"learnmore"}
+		{src:"arcade_fire_big.png?1650322694176", id:"arcade_fire_big"},
+		{src:"arcade_fire_small.png?1650322694176", id:"arcade_fire_small"},
+		{src:"arcade_fireandmore.png?1650322694176", id:"arcade_fireandmore"},
+		{src:"ball.png?1650322694176", id:"ball"},
+		{src:"block_logo.png?1650322694176", id:"block_logo"},
+		{src:"copy1.png?1650322694176", id:"copy1"},
+		{src:"cta_bg.png?1650322694176", id:"cta_bg"},
+		{src:"date.png?1650322694176", id:"date"},
+		{src:"image1.png?1650322694176", id:"image1"},
+		{src:"image2.png?1650322694176", id:"image2"},
+		{src:"image3.png?1650322694176", id:"image3"},
+		{src:"image4.png?1650322694176", id:"image4"},
+		{src:"image5.png?1650322694176", id:"image5"},
+		{src:"learnmore.png?1650322694176", id:"learnmore"}
 	],
 	preloads: []
 };
